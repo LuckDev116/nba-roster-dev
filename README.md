@@ -2,29 +2,19 @@
 
 <img width="384" alt="player-card" src="https://user-images.githubusercontent.com/96617494/155823317-0e3ed431-4220-454c-9c63-80f23e23ba66.png">
 
+### Instructions
+
 Step 1. Bootstrap a new [NextJS](https://nextjs.org/) site by using `create-next-app`
-
-
 
 Step 2. Add [TailwindCSS](https://tailwindcss.com) as a project dependency
 
-
-
 Step 3. Create an API endpoint `/api/players`. The endpoint should respond with the contents of `./data/players.json`
-
-
 
 Step 4. Create an API endpoint `/api/teams`. The endpoint should respond with the contents of `./data/teams.json`
 
-
-
 Step 5. Update `./pages/index.js` to fetch the players and teams API **from the clients browser**. Create a "Loading" component that is visible until both endpoints have been fetched.
 
-
-
 Step 6. Create a `PlayerCard` component that matches the design of `./docs/player-card.png`. For each player in the `players` API response, render an instance of this component. (Roboto is the font being used)
-
-
 
 Step 7. Use Flex box to render the player cards in a grid, as well as a media query to set the amount of grid columns at various breakpoints
 

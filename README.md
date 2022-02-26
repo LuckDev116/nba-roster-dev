@@ -1,7 +1,5 @@
 # NBA React and Tailwind CSS
 
-### Instructions
-
 <img width="384" alt="player-card" src="https://user-images.githubusercontent.com/96617494/155823317-0e3ed431-4220-454c-9c63-80f23e23ba66.png">
 
 Step 1. Bootstrap a new [NextJS](https://nextjs.org/) site by using `create-next-app`
